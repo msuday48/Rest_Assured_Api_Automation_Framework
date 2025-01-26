@@ -11,7 +11,6 @@ import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 public class TestIntegrationFlow extends BaseTest {
 
     //  Test Integration Scenario 1
@@ -25,7 +24,6 @@ public class TestIntegrationFlow extends BaseTest {
     // 4. Update the booking ( bookingID, Token) - Need to get the token, bookingID from above request
 
     // 5. Delete the Booking - Need to get the token, bookingID from above request
-
 
     @Test(groups = "qa", priority = 1)
     @Owner("uday")
