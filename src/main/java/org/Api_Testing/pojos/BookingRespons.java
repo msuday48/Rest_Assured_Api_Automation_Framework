@@ -15,7 +15,7 @@ public class BookingRespons {
     public Integer getBookingid() {
         return bookingid;
     }
-
+//
     public void setBookingid(Integer bookingid) {
         this.bookingid = bookingid;
     }
