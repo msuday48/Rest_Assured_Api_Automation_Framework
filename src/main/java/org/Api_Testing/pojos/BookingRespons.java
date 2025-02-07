@@ -11,7 +11,7 @@ public class BookingRespons {
     @SerializedName("booking")
     @Expose
     private Booking booking;
-
+//
     public Integer getBookingid() {
         return bookingid;
     }
