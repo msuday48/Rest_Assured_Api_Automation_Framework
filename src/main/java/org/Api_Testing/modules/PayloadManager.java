@@ -17,7 +17,6 @@ public class PayloadManager {
         bookingdates.setCheckin("2024-02-01");
         bookingdates.setCheckout("2024-02-01");
 
-
         booking.setBookingdates(bookingdates);
         booking.setAdditionalneeds("Breakfast");
 
