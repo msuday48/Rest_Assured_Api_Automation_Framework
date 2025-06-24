@@ -1,4 +1,4 @@
-package org.Api_Testing.integration;
+package tests.integration;
 
 import org.Api_Testing.base.BaseTest;
 

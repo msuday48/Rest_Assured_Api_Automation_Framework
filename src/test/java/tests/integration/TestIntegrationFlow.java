@@ -1,14 +1,16 @@
-package org.Api_Testing.integration;
+package tests.integration;
+
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
+import io.restassured.RestAssured;
 import org.Api_Testing.base.BaseTest;
 import org.Api_Testing.endpoints.APIConstants;
 import org.Api_Testing.pojos.Booking;
 import org.Api_Testing.pojos.BookingRespons;
-import io.qameta.allure.Description;
-import io.qameta.allure.Owner;
-import io.restassured.RestAssured;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestIntegrationFlow extends BaseTest {

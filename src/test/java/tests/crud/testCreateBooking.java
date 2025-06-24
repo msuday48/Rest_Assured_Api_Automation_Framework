@@ -1,9 +1,10 @@
-package org.Api_Testing.crud;
+package tests.crud;
+
+import io.qameta.allure.*;
+import io.restassured.RestAssured;
 import org.Api_Testing.base.BaseTest;
 import org.Api_Testing.endpoints.APIConstants;
 import org.Api_Testing.pojos.BookingRespons;
-import io.qameta.allure.*;
-import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
 public class testCreateBooking extends BaseTest {
