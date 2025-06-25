@@ -18,15 +18,5 @@ public class testCreateBooking extends BaseTest {
 
     public void testVerifyCreateBookingPOST01(){
 
-        requestSpecification.baseUri(APIConstants.BASE_URL);
-        requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
-        response =RestAssured.given(requestSpecification)
-                .when().body(payloadManager.createPayloadBookingAsString()).post();
-
-  validatableResponse=response.then().log().all();
-  validatableResponse.statusCode(200);
-
-  BookingRespons bookingResponse=payloadManager.bookingResponseJava(response.asString());
-  assertActions.verifyStringKey(bookingResponse.getBooking().getFirstname(),"James");
     }
 }

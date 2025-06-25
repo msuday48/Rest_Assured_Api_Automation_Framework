@@ -1,5 +1,4 @@
 package org.Api_Testing.base;
-
 import org.Api_Testing.asserts.AssertActions;
 import  org.Api_Testing.endpoints.APIConstants;
 import  org.Api_Testing.modules.PayloadManager;
@@ -15,7 +14,6 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
     // CommonToAll Testcase
     // Base URL, Content Type - json - common
-
 
     public RequestSpecification requestSpecification;
     public AssertActions assertActions;
@@ -59,7 +57,5 @@ public class BaseTest {
         String token = payloadManager.getTokenFromJSON(response.asString());
 
         return token;
-
-
     }
 }

@@ -39,7 +39,7 @@ public class PayloadManager {
         Booking booking = gson.fromJson(getResponse, Booking.class);
         return booking;
     }
-    //  ---- Token -----
+    //  -- Token --
     // JAVA to JSON
     public String setAuthPayload(){
         Auth auth = new Auth();
